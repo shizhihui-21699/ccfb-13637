@@ -1,0 +1,10 @@
+{
+  "orig.mp4":      [],
+  "double.mp4":    [],
+  "del_copy.mp4":  [{"type": "deletion",  "t0": 60, "t1": 62}],
+  "del_reenc.mp4": [{"type": "deletion",  "t0": 60, "t1": 63}],
+  "insert.mp4":    [{"type": "insertion", "t0": 60, "t1": 63}],
+  "splice.mp4":    [{"type": "splice",    "t0": 60, "t1": 180}],
+  "region.mp4":    [{"type": "region",    "t0": 60, "t1": 75}],
+  "dup.mp4":       [{"type": "duplicate", "t0": 60, "t1": 62}]
+}

@@ -1,0 +1,21 @@
+=== [1/9] orig.mp4 原始监控录像 (180s) ===
+=== [2/9] cam2.mp4 另一台摄像头 ===
+=== [3/9] del_copy.mp4 删掉 60s-62s, 流拷贝拼接 (不重编码) ===
+=== [4/9] del_reenc.mp4 删掉 60s-63s, 整段重编码 ===
+=== [5/9] insert.mp4 在 60s 处插入 cam2 的 3 秒 ===
+=== [6/9] splice.mp4 60s 之后整段换成 cam2 的画面 ===
+=== [7/9] region.mp4 60s-75s 画面局部被 cam2 的一块移动区域覆盖 ===
+=== [8/9] dup.mp4 60s-62s 画面被冻结 (重复同一帧) ===
+=== [9/9] double.mp4 对照组: 仅整体重编码, 无篡改 ===
+=== 1 小时性能测试文件 (orig 循环 20 次, 流拷贝) ===
+=== 完成 ===
+-rw-r--r--  1 shizhihui  staff   5.5M 11月 21 04:59 cam2.mp4
+-rw-r--r--  1 shizhihui  staff   151M 11月 21 04:59 del_copy.mp4
+-rw-r--r--  1 shizhihui  staff   147M 11月 21 04:59 del_reenc.mp4
+-rw-r--r--  1 shizhihui  staff   150M 11月 21 04:59 double.mp4
+-rw-r--r--  1 shizhihui  staff   148M 11月 21 04:59 dup.mp4
+-rw-r--r--  1 shizhihui  staff   153M 11月 21 04:59 insert.mp4
+-rw-r--r--  1 shizhihui  staff   192M 11月 21 04:59 long_1h.mp4
+-rw-r--r--  1 shizhihui  staff   153M 11月 21 04:59 orig.mp4
+-rw-r--r--  1 shizhihui  staff   149M 11月 21 04:59 region.mp4
+-rw-r--r--  1 shizhihui  staff    55M 11月 21 04:59 splice.mp4
